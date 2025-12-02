@@ -1,4 +1,6 @@
 import img1 from "../img1.png"
+import img2 from "../img2.png"
+import img3 from "../img3.png"
 
 
 export const projects = [
@@ -17,17 +19,17 @@ export const projects = [
     category: "Full stack development",
     description:
       "Professional portfolio highlighting analytical skills, project outcomes, and data visualizations.",
-    image: img1,
-    link: "https://your-demo-link.com/business"
+    image: img3,
+    // link: "https://ecommerce"
   },
   {
     id: 3,
     title: "TASK MANAGER",
-    category: "Education & Learning",
+    category: "Frontend Development",
     description:
       "Warm, approachable portfolio showcasing teaching philosophy, classroom projects, and student outcomes.",
-    image: img1,
-    link: "https://your-demo-link.com/teacher"
+    image: img2,
+    // link: "https://your-demo-link.com/teacher"
   },
 
 ];

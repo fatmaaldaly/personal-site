@@ -32,10 +32,16 @@ export default function Projects() {
                 </p>
 
                 <div className="sample-buttons">
-                  <Link to={project.link} className="btn-view">
+                  <a 
+                    href={project.link} 
+                    className="btn-view"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
                     View project
-                  </Link>
+                  </a>
                 </div>
+
               </div>
 
             </div>

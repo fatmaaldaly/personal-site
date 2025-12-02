@@ -322,6 +322,8 @@ html, body {
   height: 20rem;
 }
 
+
+/* mobile */
 @media (max-width: 639px) {
   .hero-circle {
     /* width: 12rem;
@@ -333,12 +335,27 @@ html, body {
   }
 }
 
+
+/* tablet */
 @media (min-width: 640px) and (max-width: 1023px) {
   .hero-circle {
     /* width: 16rem;
     height: 16rem; */
     display: none;
   }
+  .hero-visual {
+   display: none;
+  }
+  .hero-buttons {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .hero-description{
+    text-align: center;
+  }
+
+
 }
 
 .hero-text {
@@ -455,7 +472,7 @@ html, body {
 }
 
 /* Education & Experience Grids */
-.education-grid,
+/* .education-grid,
 .experience-grid {
   display: grid;
   gap: 2rem;
@@ -470,7 +487,27 @@ html, body {
     max-width: 80%;
     
   }
+} */
+
+/* Default (desktop/tablet) */
+.education-grid,
+.experience-grid {
+  display: grid;
+  gap: 2rem;
+  max-width: 80%; 
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
 }
+
+/* Mobile (smaller screens) */
+@media (max-width: 768px) {
+  .education-grid,
+  .experience-grid {
+    grid-template-columns: 1fr; 
+    max-width: 90%; 
+  }
+}
+
 
 /* Skills */
 .skills-grid {
