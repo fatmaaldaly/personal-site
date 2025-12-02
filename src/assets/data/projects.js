@@ -18,7 +18,7 @@ export const projects = [
     title: "E-COMMERCE SITE",
     category: "Full stack development",
     description:
-      "Professional portfolio highlighting analytical skills, project outcomes, and data visualizations.",
+      " Developed a functional e-commerce platform with product listing, cart management, and checkout features. Integrated backend APIs for product data and user authentication.",
     image: img3,
     // link: "https://ecommerce"
   },
@@ -27,7 +27,7 @@ export const projects = [
     title: "TASK MANAGER",
     category: "Frontend Development",
     description:
-      "Warm, approachable portfolio showcasing teaching philosophy, classroom projects, and student outcomes.",
+      " Built a task management app that allows users to add, complete, and delete tasks. Implemented a clean UI and interactive state management for seamless task tracking.",
     image: img2,
     // link: "https://your-demo-link.com/teacher"
   },
