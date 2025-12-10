@@ -28,7 +28,7 @@ export default function Education() {
 
             {education.map((item, index) => (
 
-                <div className="card" k ey={index}>
+                <div className="card" key={index}>
                   <div className="card-content">
                     <h3 className="card-title">{item.degree}</h3> 
                     {/* <p className="card-title">{item.degree}</p> */}
