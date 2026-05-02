@@ -20,8 +20,8 @@ export const projects = [
     category: "Full stack development",
     description:
       " Built a CRM system with role-based access, lead management, activity tracking, and reminders. Integrated AI features for lead insights and call follow-ups with structured, actionable outputs.",
-    image: img3,
-    // link: "https://ecommerce"
+    image: img2,
+    link: "https://crm-pro-hazel.vercel.app/"
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const projects = [
     category: "Frontend Development",
     description:
       " Built a task management app that allows users to add, complete, and delete tasks. Implemented a clean UI and interactive state management for seamless task tracking.",
-    image: img2,
+    image: img3,
     // link: "https://your-demo-link.com/teacher"
   },
 
