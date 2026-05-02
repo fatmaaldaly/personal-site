@@ -16,10 +16,10 @@ export const projects = [
   },
   {
     id: 2,
-    title: "E-COMMERCE SITE",
+    title: "CRM Pro",
     category: "Full stack development",
     description:
-      " Developed a functional e-commerce platform with product listing, cart management, and checkout features. Integrated backend APIs for product data and user authentication.",
+      " Built a CRM system with role-based access, lead management, activity tracking, and reminders. Integrated AI features for lead insights and call follow-ups with structured, actionable outputs.",
     image: img3,
     // link: "https://ecommerce"
   },
