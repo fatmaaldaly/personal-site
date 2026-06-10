@@ -1,8 +1,8 @@
 
 
 
-const skills = [  "HTML", "CSS","JavaScript", "Python", "React", "Node", "SQL", "Java", 
-  "Git", "Bootstrap", "PostgreSQL","TypeScript", "React native", "Data Analysis", "Tableau", "Power BI"];
+const skills = [  "HTML", "CSS","JavaScript", "Python", "React.js", "Node.js", "Next.js", "SQL", "Java", 
+  "Git", "Tailwind", "PostgreSQL","TypeScript", "React native", "Tableau", "Power BI"];
 
 
 
