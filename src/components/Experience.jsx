@@ -41,16 +41,12 @@ export default function Experience() {
                         <p className="card-subtitle">{item.company}</p>
                         <p className="card-date">{item.date}</p>
 
-                        <ul>
-                            <li className="card-description">
-                            {item.responsibilities[0]}
+                        <ul className="responsibility-list">
+                          {item.responsibilities.map((responsibility, idx) => (
+                            <li key={idx} className="responsibility-item">
+                              {responsibility}
                             </li>
-                            <li className="card-description">
-                                {item.responsibilities[1]}
-                            </li>
-                            <li className="card-description">
-                                {item.responsibilities[2]}
-                            </li>
+                          ))}
                         </ul>
                     </div>
                   </div>

@@ -154,19 +154,6 @@ export default function Projects() {
                   </ul>
                 </div>
 
-                {/* Challenges */}
-                {/* <div className="project-section">
-                  <h3 className="section-title">Challenges</h3>
-                  <div className="challenges-list">
-                    {project.challenges.map((challenge, idx) => (
-                      <div key={idx} className="challenge-item">
-                        <span className="challenge-number">{idx + 1}</span>
-                        <span className="challenge-text">{challenge}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div> */}
-
                 {/* Role & Links */}
                 <div className="project-footer">
                   <div className="role-info">

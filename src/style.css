@@ -464,6 +464,18 @@ html, body {
   margin-bottom: 0.75rem;
 }
 
+.responsibility-list {
+  list-style: disc inside;
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+  color: #d1d5db;
+}
+
+.responsibility-item {
+  margin-bottom: 0.85rem;
+  line-height: 1.75;
+}
+
 .card-subtitle {
   color: #d1d5db;
   margin-bottom: 0.5rem;
@@ -505,7 +517,7 @@ html, body {
   width: 100%;
   max-width: 1000px; 
   margin: 0 auto;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   padding: 0 1rem;
 }
 

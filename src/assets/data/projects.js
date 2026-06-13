@@ -1,36 +1,36 @@
-import img1 from "../img1.png"
+import G1 from "../G1.png";
+import G2 from "../G2.png";
+import G3 from "../G3.png";
+import G4 from "../G4.png";
+import G5 from "../G5.png";
 import img2 from "../img2.png"
 import img3 from "../img3.png"
+
 
 export const projects = [
   {
     id: 1,
-    title: "PERSONAL SITE",
-    subtitle: "Interactive Portfolio",
-    category: "Frontend Development",
+    title: "GROCER",
+    subtitle: "E-commerce website",
+    category: "Full Stack Development",
     shortDescription:
-      "Created a responsive personal site with animated UI components to enhance user engagement",
+      "Built a dynamic ecommerce website with product browsing, cart management, and checkout flow.",
     fullDescription:
-      "A modern, fully responsive personal portfolio website designed to showcase my work and skills. This project demonstrates my front-end development expertise with smooth animations, glass-morphism design elements, and an intuitive user experience. Built with a focus on performance and accessibility.",
-    images: [img1, img1, img1],
-    tech: ["React", "Vite", "CSS3", "JavaScript", "AOS Animations"],
-    techIcons: ["⚛️", "⚡", "🎨", "✨", "🎭"],
+      "A full-featured ecommerce application designed to provide a seamless shopping experience. It includes product listings, category filters, shopping cart functionality, and a clean checkout process. The project highlights responsive design, state management, and secure data handling for an intuitive user journey.",
+    images: [G1, G2, G3, G4, G5],
+    tech: ["React", "Node.js", "Express", "CSS3", "PostgreSQL"],
+    techIcons: ["⚛️", "🟩", "🎨", "✨", "🔌"],
     features: [
-      "Fully responsive design (mobile, tablet, desktop)",
-      "Smooth scroll animations with AOS library",
-      "Glass-morphism UI components",
-      "Dynamic navigation with smooth transitions",
-      "Performance optimized with Vite"
+      "Responsive product gallery and category filtering",
+      "Add to cart, update quantities, and remove items",
+      "Smooth checkout flow with order summary",
+      "Secure backend integration for product and user data",
+      "Optimized for mobile and desktop experiences"
     ],
-    challenges: [
-      "Creating smooth animations without impacting performance",
-      "Implementing responsive design across all device sizes",
-      "Optimizing loading times for smooth scrolling effects"
-    ],
-    role: "Frontend Developer",
+    role: "Full-Stack Developer",
     links: {
-      live: "https://fatmaaldaly.github.io/personal-site/",
-      github: "https://github.com/fatmaaldaly/personal-site"
+      live: "#",
+      github: "https://github.com/fatmaaldaly/e-commerce-site"
     }
   },
   {
@@ -43,7 +43,7 @@ export const projects = [
     fullDescription:
       "A comprehensive CRM platform designed for sales teams to manage leads efficiently. Features role-based access control, advanced lead management, activity tracking, reminder systems, and AI-powered insights. The system leverages AI to provide intelligent lead recommendations and automated call follow-up summaries, helping teams optimize their sales pipeline.",
     images: [img2, img2, img2],
-    tech: ["React", "Node.js", "MongoDB", "Express", "AI Integration", "Tailwind CSS"],
+    tech: ["React", "Node.js", "Supabase", "Tanstack query", "AI Integration", "Tailwind CSS"],
     techIcons: ["⚛️", "🟩", "📦", "🚀", "🤖", "🎨"],
     features: [
       "Role-based access control with multiple user tiers",
@@ -54,12 +54,6 @@ export const projects = [
       "Customizable reminders and notifications",
       "Dashboard with key metrics and analytics",
       "Team collaboration features"
-    ],
-    challenges: [
-      "Integrating AI APIs with complex data processing",
-      "Managing role-based access permissions securely",
-      "Handling real-time data updates and synchronization",
-      "Building scalable database architecture for large datasets"
     ],
     role: "Full-Stack Developer & AI Integration Specialist",
     links: {
@@ -87,12 +81,6 @@ export const projects = [
       "Smooth transitions and micro-interactions",
       "Fully keyboard accessible",
       "Mobile-friendly design"
-    ],
-    challenges: [
-      "Implementing efficient state management",
-      "Ensuring data persistence across sessions",
-      "Creating a minimalist yet functional UI",
-      "Optimizing re-renders for performance"
     ],
     role: "Frontend Developer",
     links: {
