@@ -3,6 +3,10 @@ import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/Projects.css";
+import { Button } from "bootstrap";
+import ScrollToTop from "react-scroll-to-top";
+import { FaArrowUp } from "react-icons/fa";
+
 
 export default function Projects() {
   const [activeImageIndices, setActiveImageIndices] = useState(
@@ -35,6 +39,9 @@ export default function Projects() {
 
   return (
     <section className="projects-section">
+      <button className="back-button" onClick={() => window.history.back()}>
+        &larr; Back to home
+      </button>
       <div className="container">
         {/* Section Header */}
         <div className="projects-header" data-aos="fade-up" data-aos-duration="800">
@@ -145,12 +152,6 @@ export default function Projects() {
                         {feature}
                       </li>
                     ))}
-                    {/* {project.features.length > 4 && (
-                      <li className="feature-item more">
-                        <span className="feature-icon">+</span>
-                        {project.features.length - 4} more features
-                      </li>
-                    )} */}
                   </ul>
                 </div>
 
@@ -196,6 +197,10 @@ export default function Projects() {
           <p>I'm constantly working on new and exciting projects. Stay tuned!</p>
         </div>
       </div>
+     <ScrollToTop
+      smooth
+      component={<FaArrowUp />}
+    />
     </section>
   );
 }

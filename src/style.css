@@ -143,27 +143,6 @@ html, body {
   padding-top: 5rem;
 }
 
-/* .hero-grid {
-  display: grid;
-  gap: 3rem;
-  align-items: center;
-} */
-
-/* @media (min-width: 1024px) {
-  .hero-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-.hero-text {
-  text-align: center;
-}
-
-@media (min-width: 1024px) {
-  .hero-text {
-    text-align: left;
-  }
-} */
 
 .hero-title {
   font-size: 3.5rem;
@@ -173,11 +152,6 @@ html, body {
   color: var(--white);
 }
 
-/* @media (min-width: 1024px) {
-  .hero-title {
-    font-size: 4.5rem;
-  }
-} */
 
 .hero-title-gradient {
   background: linear-gradient(to right, #f472b6, #c084fc);
@@ -206,14 +180,7 @@ html, body {
   gap: 1rem;
 }
 
-/* @media (min-width: 640px) {
-  .hero-buttons {
-    flex-direction: row;
-  }
-} */
  
-
-
 .hero-visual {
   text-align: center;
   position: relative;
@@ -347,8 +314,6 @@ html, body {
 /* tablet */
 @media (min-width: 640px) and (max-width: 1023px) {
   .hero-circle {
-    /* width: 16rem;
-    height: 16rem; */
     display: none;
   }
   .hero-visual {
@@ -411,16 +376,6 @@ html, body {
   color: var(--text-dark);
 }
 
-/* .btn-outline {
-  border: 1px solid rgba(255, 255, 255, 0.605);
-  color: var(--white);
-  background: transparent;
-}
-
-.btn-outline:hover {
-  background: rgba(255, 255, 255, 0.1);
-} */
-
 /* Sections */
 .section {
   padding: 5rem 0;
@@ -431,7 +386,7 @@ html, body {
 }
 
 .section-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 4rem;
@@ -492,22 +447,7 @@ html, body {
 }
 
 /* Education & Experience Grids */
-/* .education-grid,
-.experience-grid {
-  display: grid;
-  gap: 2rem;
-  max-width: 64rem;
-  margin: 0 auto;
-}
 
-@media (min-width: 768px) {
-  .education-grid,
-  .experience-grid {
-    grid-template-columns: 1fr 1fr;
-    max-width: 80%;
-    
-  }
-} */
 
 /* Default (desktop/tablet) */
 .education-grid,
@@ -540,13 +480,10 @@ html, body {
   }
 
   .section-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 2.5rem;
   }
 
-  /* .card {
-    padding: 1.5rem !important;
-  } */
 
   .card-title {
     font-size: 1.2rem;
@@ -603,7 +540,7 @@ html, body {
     grid-template-columns: 1fr 1fr;
   }
   .hobby-card {
-    max-width: 70%;
+    max-width: 90%;
   }
 }
 
@@ -919,3 +856,13 @@ html, body {
 }
 
 
+.back-button{
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  background: white;
+  border-radius: 10%;
+  color: #050505;
+  font-size: 16px;
+  cursor: pointer;
+}
